@@ -1,6 +1,10 @@
-#define BLYNK_TEMPLATE_ID   "TMPL2R55l2R_g"
-#define BLYNK_TEMPLATE_NAME "TTGO"
-#define BLYNK_AUTH_TOKEN    "xe1YkQimzap8dtsC9qJyCkubF3ZlPc7E"
+#define BLYNK_TEMPLATE_ID   "TMPLxxxxxxxx"
+#define BLYNK_TEMPLATE_NAME "Home"
+#define BLYNK_AUTH_TOKEN    "YOUR_NEW_BLYNK_AUTH_TOKEN"
+
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -13,8 +17,7 @@
 // WIFI SETTINGS
 // =====================================================
 char ssid[] = "OnMyLevel";
-char pass[] = "          ";  // Replace with your actual Wi-Fi password
-
+char pass[] = "YOUR_WIFI_PASSWORD"; 
 // =====================================================
 // RELAY AND SWITCH PINS
 // =====================================================
